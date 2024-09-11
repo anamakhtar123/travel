@@ -1,0 +1,679 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+/* body section  */
+body {
+    font-family: "Montserrat", sans-serif;
+}
+
+/* 1st section header  */
+.header {
+    height: 95vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('img/header-image.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.navbar {
+    padding: 1rem;
+}
+
+.navbar a:hover {
+    color: white;
+    border-bottom: 2px sloid white;
+}
+
+.container {
+    max-width: 1200px;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.header .logo {
+    float: left;
+    color: white;
+    margin-top: 1rem;
+    /* color: #e63946;  */
+    font-size: 3.5rem;
+}
+
+.logo {
+    float: left;
+    color: white;
+    margin-top: 1rem;
+    /* color: #e63946;  */
+    font-size: 3.5rem;
+}
+
+.navbar a {
+    color: white;
+    padding: 2rem;
+}
+
+.navbar .nav-items {
+    float: right;
+    margin-top: 2rem;
+    text-transform: uppercase;
+}
+
+.navbar .nav-item {
+    display: inline-block;
+}
+
+.navbar ::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+ul li {
+    list-style: none;
+}
+
+a {
+    font-size: 1.6rem;
+    text-decoration: none;
+}
+
+p,
+li {
+    font-size: 1.6rem;
+    margin-bottom: 0.5em;
+    letter-spacing: 0.15em;
+}
+
+h1,
+h2,
+h3 {
+    margin-bottom: 0.5em;
+    letter-spacing: 0.15em;
+    font-weight: 500;
+}
+
+.header-content {
+    /* border: 2px solid red;  */
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2));
+}
+
+.header-content h1 {
+    text-transform: uppercase;
+    font-weight: 700;
+    color: white;
+}
+
+.header-content p {
+    text-transform: uppercase;
+    color: white;
+}
+
+.btn {
+    color: #e63946;
+    background-color: white;
+    display: inline-block;
+    padding: 0.5em 1.5em;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin: 0.5em o;
+    border-radius: 10rem;
+}
+
+.showcase {
+    background-color: #ddd;
+    padding: 10rem 0;
+}
+
+.row {
+    height: 350px;
+    /* border: 2px solid green;  */
+    background-color: white;
+    box-shadow: 5px 5px 20px 0px #aaa;
+}
+
+.row::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.row1 {
+    margin-bottom: 10rem;
+}
+
+.row2 .img-box,
+.row1 .text-box {
+    float: right;
+    width: 50%;
+}
+
+.row1 .img-box,
+.row2 .text-box {
+    float: right;
+    width: 50%;
+}
+
+.row .img-box {
+    /* border: 2px solid green;  */
+    height: 100%;
+}
+
+.row .text-box {
+    /* border: 2px solid red;  */
+    padding: 3rem;
+}
+
+.row .img-box img {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.lg-heading {
+    color: rgb(75, 75, 75);
+    font-weight: 500;
+    padding: 10px;
+}
+
+.text-box {
+    color: gray;
+    /* text-align:justify;  */
+}
+
+.btn {
+    color: #e63946;
+    background-color: white;
+    display: inline-block;
+    padding: 0.5em 1.5em;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin: 0.5em o;
+    border-radius: 1.5rem;
+    border: 2px solid #e63946;
+
+}
+
+.btn:hover {
+    background-color: #f0eaea;
+}
+
+.features {
+    padding: 10rem 0;
+}
+
+.box-wrapper {
+    box-shadow: 5px 5px 20px 0px rgb(39, 30, 30);
+}
+
+.box {
+    width: 33.33333333%;
+    float: left;
+    /* border: 2px solid black;  */
+    padding: 2rem;
+    text-align: center;
+}
+
+.box p {
+    text-align: justify;
+
+}
+
+.box-1 i {
+    color: #d3747c;
+
+}
+
+.box-3 i {
+    color: #d3747c;
+}
+
+.box-1,
+.box-3 {
+    background-color: #263238;
+    color: white;
+}
+
+.box-2 {
+    color: white;
+    background-color: #d4646a;
+}
+
+.box-wrapper::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.footer {
+    background: #263238;
+    color: #f4f4f4;
+    padding: 2rem;
+    text-align: center;
+}
+
+.footer .social-media-links a i {
+    /* border: 2px solid red;  */
+    color: white;
+    padding: 2px;
+    font-size: 20px;
+    margin-bottom: 6px;
+}
+
+/* About us page stylling  */
+.bg-dark {
+    background-color: #263238;
+}
+
+.about {
+    padding: 5rem 0;
+}
+
+.about .container hr {
+    /* content: "";  */
+    /* display: block;  */
+    /* width: 100%;  */
+    border-bottom: 6px solid #e63946;
+}
+
+.text-gray {
+    color: #8b8484;
+    margin-bottom: 3rem;
+}
+
+/* ######About- wrapper ###########  */
+.about-wrapper {
+    /* border: 2px solid black;  */
+    text-align: center;
+    list-style: none;
+}
+
+.about-wrapper .left {
+    float: left;
+    width: 50%;
+}
+
+.about-wrapper .right {
+    float: right;
+    width: 50%;
+}
+
+.about-wrapper::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.about-wrapper li::before {
+    /* content: '/2713';  */
+    font-weight: bold;
+    color: #e63946;
+}
+
+.about-wrapper .fas {
+    color: #e63946;
+
+}
+
+.about-wrapper ul li {
+    color: #8b8484;
+}
+
+/* ##########counts##########  */
+.counts {
+    /* border: 2px solid black;  */
+    margin-top: 3rem;
+}
+
+.count-item {
+    float: left;
+    width: 25%;
+    text-align: center;
+    /* border: 2px solid red;  */
+}
+
+.counts::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.count-item span {
+    font-size: 3rem;
+    font-weight: 700;
+    color: #e63946;
+}
+
+.count-item p {
+    font-weight: 800;
+    color: #555;
+    font-size: 1.8rem;
+}
+
+/* ######## Banner style ###########  */
+.cta-banner {
+    background-color: #e63946;
+    color: #f4f4f4;
+    padding: 1rem;
+    box-shadow: 5px 5px 15px #000;
+    margin-top: 3rem;
+}
+
+.cta-line {
+    font-weight: 400;
+    font-size: 1.5rem;
+    margin-top: 1.5rem;
+}
+
+.btn-cta {
+    text-align: center;
+    display: inline-block;
+    font-weight: 700;
+    font-size: 3rem;
+    text-transform: uppercase;
+    border: 2px solid white;
+    padding: 0.3rem 2.5rem;
+    letter-spacing: 0.5rem;
+    color: #f4f4f4;
+}
+
+
+.cta-banner-left {
+    width: 60%;
+    float: left;
+}
+
+.cta-banner-right {
+    width: 40%;
+    float: right;
+}
+
+.cta-banner::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+/* ##### Contact form######  */
+contact-form {
+    padding: 5rem 0;
+    background: #f7f7f7;
+}
+
+.form-wrapper::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.form-wrapper .company-address {
+    background: #f7f7f7;
+    width: 49%;
+    float: left;
+    /* border: 4px solid green;  */
+    padding: 1rem;
+    height: 760px;
+    margin-top: 26px;
+    margin-bottom: 26px;
+}
+
+.form-wrapper .company-address i {
+    display: inline-block;
+    margin-right: 1rem;
+}
+
+.form-wrapper .company-address h2 {
+    display: inline-block;
+    text-transform: uppercase;
+}
+
+.form-wrapper .address-group {
+    margin-bottom: 20px;
+}
+.form-wrapper  .address-group .md-heading {
+   color: gray;
+}
+.form-wrapper  .address-group i {
+   color: #e63946;
+}
+
+
+.form-wrapper .company-address img {
+    max-width: 90%;
+    min-height: 40rem;
+    object-fit: cover;
+    object-position: right;
+}
+
+.form-wrapper .form {
+    /* border: 4px dotted blueviolet;  */
+    background: #f4f4f4;
+    width: 49%;
+    font-size: 1.6rem;
+    float: right;
+    padding: 1rem;
+    height: 760px;
+    margin-top: 26px;
+    margin-bottom: 26px;
+}
+
+.form h1::after {
+    content: "";
+    display: block;
+    border: 3px solid #e63946;
+    width: 100%;
+}
+
+.form-wrapper .form label {
+    display: block;
+}
+
+.form-wrapper .form input {
+    padding: 0.5rem;
+    width: 100%;
+}
+
+.form-wrapper .form .form-group {
+    margin-bottom: 1.2rem;
+}
+
+.form-wrapper .form label::after {
+    content: "*";
+    color: #e63946;
+}
+
+.form-wrapper .form textarea {
+    width: 100%;
+    height: 300px;
+    padding: 1rem;
+}
+
+.form-btn {
+    display: block;
+    margin: 0 auto;
+    padding: 8.5px 3em;
+    font-size: 1.8rem;
+    text-transform: uppercase;
+    background: #e63946;
+    color: #f4f4f4;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    border-radius: 50px;
+}
+
+
+/* ######## Media querry ##########  */
+@media (max-width:500px) {
+    html {
+        font-size: 50%;
+    }
+
+    .navbar .container .logo {
+        float: none;
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+
+    .navbar .container .nav-items {
+        float: none;
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+
+    .header-content .lg-heading {
+        font-size: 2.2rem;
+    }
+
+    .row {
+        height: auto;
+        width: 100%;
+    }
+
+    .row .img-box,
+    .row .text-box {
+        float: none;
+        width: 100%;
+        text-align: center;
+    }
+
+    .features .box {
+        float: none;
+        width: 100%;
+        text-align: center;
+        box-shadow: none;
+    }
+
+    .features .box-2,
+    .features .box-3 {
+        margin-top: 7rem;
+    }
+
+    .box-wrapper {
+        box-shadow: none;
+    }
+
+    .cta-banner-left,
+    .cta-banner-right {
+        float: none;
+        width: 100%;
+        text-align: center;
+    }
+
+    .form-wrapper .company-address {
+        float: none;
+        width: 100%;
+        text-align: center;
+        height: auto;
+        margin-bottom: 5rem;
+    }
+
+    .form-wrapper .form {
+        height: auto;
+        width: 100%;
+        float: none;
+    }
+}
+
+@media(min-width:501px) and (max-width:768px) {
+    html {
+        font-size: 8px;
+    }
+
+    p {
+        font-size: 1.8rem;
+    }
+
+    .navbar .nav-item .navbar .logo {
+        float: none;
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+
+    .header h1 {
+        display: none;
+    }
+
+    .row {
+        height: auto;
+        width: 100%;
+    }
+
+    .row .text-box {
+        float: none;
+        width: 100%;
+        text-align: center;
+    }
+
+    .features .box {
+        float: none;
+        width: 100%;
+        text-align: center;
+        box-shadow: none;
+    }
+
+    .features .box-2,
+    .features .box-3 {
+        margin-top: 7rem;
+    }
+
+    .box-wrapper {
+        box-shadow: none;
+    }
+
+    .cta-banner-left,
+    .cta-banner-right {
+        float: none;
+        width: 100%;
+        text-align: center;
+    }
+
+    .form-wrapper .company-address {
+        float: none;
+        width: 100%;
+        /* text-align: center;  */
+        height: auto;
+        margin-bottom: 5rem;
+    }
+
+    .form-wrapper .form {
+        height: auto;
+        width: 100%;
+        float: none;
+    }
+}
+
+@media(min-width:769px) and (max-width:1200px) {
+    html {
+        font-size: 56.25%;
+    }
+
+    .row .text-box h2 {
+        font-size: 2.2rem;
+        font-weight: 400;
+    }
+}
+
+/* ########media querry in landscape #######  */
+@media(orientation:landscape) and (max-height:500px) {
+    .header {
+        height: 90vmax;
+    }
+}
